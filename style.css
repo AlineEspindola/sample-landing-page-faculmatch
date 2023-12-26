@@ -1,0 +1,33 @@
+.container-fluid{
+    padding: 0;
+}
+
+.navbar{
+    background-color: white !important;
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 90%;
+}
+
+.btn{
+    background-color: #F02A1C;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 27px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #d12115;
+}
+
+.btn:focus{
+    box-shadow: 0 0 0 0.2rem #ff9f98;
+}
+
+hr{
+    margin: 0;
+    max-width: 90%;
+}
+
+
+
