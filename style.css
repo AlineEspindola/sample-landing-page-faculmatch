@@ -2,8 +2,34 @@
     padding: 0;
 }
 
+/* Nav */
 ul{
     gap: 22px !important;
+}
+
+a{
+    max-width: fit-content;
+}
+
+.linha{
+    position: relative;
+}
+.linha::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F02A1C;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+@media (hover: hover) and (pointer: fine) {
+    .linha:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
 }
 
 .navbar{
@@ -20,12 +46,10 @@ ul{
     margin-left: 10px;
     font-size: 1.3rem;
 }
-
 .btn:hover{
     color: white;
     background-color: #d12115;
 }
-
 .btn:focus{
     box-shadow: 0 0 0 0.2rem #ff9f98;
 }
@@ -33,10 +57,9 @@ ul{
 .form-control{
     border-radius: 20px;
 }
-
 .form-control:focus{
-    border-color: #F02A1C;
-    box-shadow: 0 0 0 0.2rem #ffc1bd;
+    border-color: #df7068;
+    box-shadow: 0 0 0 0.2rem #f8b7b2;
 }
 
 hr{
