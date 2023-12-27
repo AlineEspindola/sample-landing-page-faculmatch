@@ -3,7 +3,7 @@
 }
 
 ul{
-    gap: 10px !important;
+    gap: 22px !important;
 }
 
 .navbar{
@@ -44,6 +44,4 @@ hr{
     margin: 0;
     max-width: 90%;
 }
-
-
 
