@@ -24,13 +24,13 @@ a{
     background-color: #F02A1C;
     transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
-/* @media (hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) {
     .linha:hover::before{
       left: 0;
       right: auto;
       width: 100%;
     }
-} */
+}
 
 .navbar{
     background-color: white !important;
