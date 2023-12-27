@@ -10,6 +10,13 @@
     }
 }
 
+@media screen and (max-width: 575px){
+    .btn{
+        margin-left: 0;
+        margin-top: 13px;
+    }
+}
+
 @media screen and (max-width: 1100px){
     ul{
         gap: 0 !important;
