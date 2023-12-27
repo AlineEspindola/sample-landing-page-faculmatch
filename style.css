@@ -2,6 +2,10 @@
     padding: 0;
 }
 
+ul{
+    gap: 10px !important;
+}
+
 .navbar{
     background-color: white !important;
     font-family: 'Nunito Sans', sans-serif;
@@ -13,6 +17,8 @@
     color: white;
     border-radius: 30px;
     padding: 10px 27px;
+    margin-left: 10px;
+    font-size: 1.3rem;
 }
 
 .btn:hover{
@@ -22,6 +28,16 @@
 
 .btn:focus{
     box-shadow: 0 0 0 0.2rem #ff9f98;
+}
+
+.form-control{
+    border-radius: 20px;
+    margin-right: 200px;
+}
+
+.form-control:focus{
+    border-color: #F02A1C;
+    box-shadow: 0 0 0 0.2rem #ffc1bd;
 }
 
 hr{
