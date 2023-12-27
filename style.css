@@ -68,10 +68,13 @@ hr{
 }
 
 /* Início */
+.inicio{
+    margin-top: 7%;
+}
+
 .col-md-auto{
     padding-right: 0.4rem;
     padding-left: 0.4rem;
-    margin-top: 7%;
 }
 
 .titulo-1{
@@ -82,4 +85,15 @@ hr{
 .titulo-2{
     color: #F02A1C;
     font-family: 'Roboto', sans-serif;
+}
+
+.justify-content-md-center *{
+    display: flex;
+    justify-content: center!important;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    max-width: 50%;
+    text-align: center;
 }
