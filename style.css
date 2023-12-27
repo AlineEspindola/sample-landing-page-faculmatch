@@ -67,3 +67,19 @@ hr{
     max-width: 90%;
 }
 
+/* Início */
+.col-md-auto{
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    margin-top: 7%;
+}
+
+.titulo-1{
+    color: #433F3D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-2{
+    color: #F02A1C;
+    font-family: 'Roboto', sans-serif;
+}
