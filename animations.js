@@ -5,8 +5,7 @@ function obterDimensao(){
 
 function ativarHamburguer(){
     nav = document.querySelector(".navbar")
-    console.log(obterDimensao())
-
+    
     if(obterDimensao()<=1100){
         nav.classList.remove("navbar-expand-lg")
         nav.classList.add("navbar-expand-x1")

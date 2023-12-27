@@ -4,6 +4,14 @@
     }
 }
 
+@media screen and (max-width: 430px){
+    .logo-faculmatch{
+        max-width: 160px;
+    }
+}
+
 @media screen and (max-width: 1100px){
-    
+    ul{
+        gap: 0 !important;
+    }
 }
