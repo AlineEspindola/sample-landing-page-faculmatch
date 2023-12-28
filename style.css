@@ -107,7 +107,17 @@ p{
     text-align: center;
 }
 
+.desenho-predios{
+    display: block;
+}
+
+.celular{
+    display: none;
+}
+
 /****************** Demanda ******************/
 .demanda{
     background-color: #F9F9F9;
 }
+
+

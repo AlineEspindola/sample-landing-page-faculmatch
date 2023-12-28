@@ -2,6 +2,18 @@
     .logo-faculmatch{
         max-width: 160px;
     }
+    .celular{
+        display: block;
+    }
+    .pc{
+        display: none;
+    }
+    p{
+        margin-bottom: 0;
+    }
+    .filtros_celular{
+        margin-bottom: 13px;
+    }
 }
 
 @media screen and (max-width: 430px){
