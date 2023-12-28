@@ -72,6 +72,10 @@ hr{
     margin-top: 7%;
 }
 
+.row{
+    margin: 0;
+}
+
 .col-md-auto{
     padding-right: 0.4rem;
     padding-left: 0.4rem;
@@ -87,9 +91,9 @@ hr{
     font-family: 'Roboto', sans-serif;
 }
 
-.justify-content-md-center *{
+.justify-content-md-center{
     display: flex;
-    justify-content: center!important;
+    justify-content: center !important;
 }
 
 p{
