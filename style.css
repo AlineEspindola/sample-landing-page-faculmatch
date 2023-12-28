@@ -2,7 +2,7 @@
     padding: 0;
 }
 
-/* Nav */
+/****************** Nav ******************/
 ul{
     gap: 22px !important;
 }
@@ -67,7 +67,7 @@ hr{
     max-width: 90%;
 }
 
-/* Início */
+/****************** Início ******************/
 .inicio{
     margin-top: 7%;
 }
@@ -96,8 +96,18 @@ hr{
     justify-content: center !important;
 }
 
+.justify-content-md-center *{
+    display: flex;
+    justify-content: center !important;
+}
+
 p{
     font-family: 'Inter', sans-serif;
     max-width: 50%;
     text-align: center;
+}
+
+/****************** Demanda ******************/
+.demanda{
+    background-color: #F9F9F9;
 }
