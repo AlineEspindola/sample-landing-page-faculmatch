@@ -96,14 +96,14 @@ hr{
     justify-content: center !important;
 }
 
-.justify-content-md-center *{
+.titulo-inicio *{
     display: flex;
     justify-content: center !important;
 }
 
-p{
+.inicio p{
     font-family: 'Inter', sans-serif;
-    max-width: 50%;
+    max-width: 60%;
     text-align: center;
 }
 
@@ -120,4 +120,35 @@ p{
     background-color: #F9F9F9;
 }
 
+.desenho-livros{
+    margin-top: 90px;
+    margin-right: 60px;
+}
+
+h3{
+    border-radius: 30px;
+    background: #F02A1C;
+    font-size: 0.8rem;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 12px 19px;
+    margin-top: 80px;
+}
+
+.texto-demanda{
+    max-width: 39%;
+}
+
+.texto-demanda h3{
+    max-width: fit-content;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+.demanda p{
+    font-family: 'Inter', sans-serif;
+    margin-top: 5%;
+}
 

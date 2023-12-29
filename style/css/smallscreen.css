@@ -5,7 +5,7 @@
     .tela-pc{
         display: none;
     }
-    p{
+    .inicio p{
         margin-bottom: 0;
     }
     .filtros_celular{
@@ -30,9 +30,27 @@
         margin-left: 0;
         margin-top: 13px;
     }
-    p{
+    .inicio p{
         max-width: 85%;
         font-size: 0.9rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 878px){
+    .conteudo-demanda{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .texto-demanda{
+        max-width: 90%;
+    }
+    .desenho-livros{
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 0;
     }
 }
 
