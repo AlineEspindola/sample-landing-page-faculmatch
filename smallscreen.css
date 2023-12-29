@@ -1,8 +1,8 @@
 @media screen and (max-width: 400px){
-    .celular{
+    .tela-celular{
         display: block;
     }
-    .pc{
+    .tela-pc{
         display: none;
     }
     p{
