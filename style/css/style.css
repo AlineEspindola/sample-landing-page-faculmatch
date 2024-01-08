@@ -115,6 +115,12 @@ hr{
     display: none;
 }
 
+.zoomInDown-custom{
+    animation-name: zoomInDown;
+    animation-duration: 1s;
+    animation-delay: 0.5s; 
+}
+
 /****************** Demanda ******************/
 .demanda{
     background-color: #F9F9F9;
