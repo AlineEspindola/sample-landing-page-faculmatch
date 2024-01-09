@@ -115,10 +115,10 @@ hr{
     display: none;
 }
 
-.zoomInDown-05s{
+.zoomInDown-07s{
     animation-name: zoomInDown;
     animation-duration: 1s;
-    animation-delay: 0.5s; 
+    animation-delay: 0.7s; 
 }
 
 /****************** Demanda ******************/
@@ -170,6 +170,12 @@ h2{
     animation-name: fadeInLeft;
     animation-duration: 1s;
     animation-delay: 0.3s; 
+}
+
+.fadeInUp-17s{
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 1.7s; 
 }
 
 
