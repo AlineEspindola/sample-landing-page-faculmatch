@@ -115,7 +115,7 @@ hr{
     display: none;
 }
 
-.zoomInDown-custom{
+.zoomInDown-05s{
     animation-name: zoomInDown;
     animation-duration: 1s;
     animation-delay: 0.5s; 
@@ -157,4 +157,19 @@ h2{
     font-family: 'Inter', sans-serif;
     margin-top: 5%;
 }
+
+.escondido{
+    opacity: 0;
+}
+
+.visivel{
+    opacity: 1;
+}
+
+.fadeInLeft-03s{
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-delay: 0.3s; 
+}
+
 
