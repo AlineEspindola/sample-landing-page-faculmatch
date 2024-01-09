@@ -7,18 +7,17 @@ const observador = new IntersectionObserver( (entradas) => {
                 case 'desenhoLivros':
                     entradas[i].target.classList.add('visivel')
                     entradas[i].target.classList.add('animate__animated')
-                    entradas[i].target.classList.add('fadeInLeft-300ms')
+                    entradas[i].target.classList.add('animate__fadeInLeft')
                     break
                 case 'tituloDemanda':
                     entradas[i].target.classList.add('visivel')
                     entradas[i].target.classList.add('animate__animated')
-                    entradas[i].target.classList.add('animate__fadeInUp')
-                    entradas[i].target.classList.add('animate__delay-1s')
+                    entradas[i].target.classList.add('fadeInUp-700ms')
                     break
                 case 'subtextoDemanda':
                     entradas[i].target.classList.add('visivel')
                     entradas[i].target.classList.add('animate__animated')
-                    entradas[i].target.classList.add('fadeInUp-1700ms')
+                    entradas[i].target.classList.add('fadeInUp-1400ms')
                     break
             }
         }

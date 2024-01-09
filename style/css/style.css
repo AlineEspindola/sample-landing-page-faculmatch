@@ -172,10 +172,16 @@ h2{
     animation-delay: 0.3s; 
 }
 
-.fadeInUp-1700ms{
+.fadeInUp-700ms{
     animation-name: fadeInUp;
     animation-duration: 1s;
-    animation-delay: 1.7s; 
+    animation-delay: 0.7s; 
+}
+
+.fadeInUp-1400ms{
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 1.4s; 
 }
 
 
