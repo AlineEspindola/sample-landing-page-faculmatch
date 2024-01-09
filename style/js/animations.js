@@ -1,32 +1,45 @@
-const observador = new IntersectionObserver( (entradas) => {
-    for(var i = 0; i < entradas.length; i++){
-        if(entradas[i].isIntersecting){
-            const entrada = entradas[i].target || entradas[i].srcElement
+const observador = new IntersectionObserver( (elementos) => {
+    for(var i = 0; i < elementos.length; i++){
+        if(elementos[i].isIntersecting){
+            const entrada = elementos[i].target || elementos[i].srcElement
 
             switch(entrada.id){
                 case 'desenhoLivros':
-                    entradas[i].target.classList.add('visivel')
-                    entradas[i].target.classList.add('animate__animated')
-                    entradas[i].target.classList.add('animate__fadeInLeft')
+                    animarfadeInLeft(elementos[i])
                     break
                 case 'tituloDemanda':
-                    entradas[i].target.classList.add('visivel')
-                    entradas[i].target.classList.add('animate__animated')
-                    entradas[i].target.classList.add('fadeInUp-700ms')
+                    animarfadeInUp700ms(elementos[i])
                     break
                 case 'subtextoDemanda':
-                    entradas[i].target.classList.add('visivel')
-                    entradas[i].target.classList.add('animate__animated')
-                    entradas[i].target.classList.add('fadeInUp-1400ms')
+                    animarfadeInUp1400ms(elementos[i])
                     break
             }
         }
     }
 })
 
+function animarfadeInLeft(elemento){
+    elemento.target.classList.add('visivel')
+    elemento.target.classList.add('animate__animated')
+    elemento.target.classList.add('animate__fadeInLeft')
+}
+
+function animarfadeInUp700ms(elemento){
+    elemento.target.classList.add('visivel')
+    elemento.target.classList.add('animate__animated')
+    elemento.target.classList.add('fadeInUp-700ms')
+}
+
+function animarfadeInUp1400ms(elemento){
+    elemento.target.classList.add('visivel')
+    elemento.target.classList.add('animate__animated')
+    elemento.target.classList.add('fadeInUp-1400ms')
+}
+
 const secoes = document.querySelectorAll('.escondido')
 
 secoes.forEach( (secao) => observador.observe(secao))
+
 
 function obterDimensao(){
     var larguraTela = window.innerWidth;
