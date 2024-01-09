@@ -1,11 +1,29 @@
 const observador = new IntersectionObserver( (entradas) => {
-    entradas.forEach( (entrada) => {
-        if(entrada.isIntersecting){
-            entrada.target.classList.add('visivel')
-            entrada.target.classList.add('animate__animated')
-            entrada.target.classList.add('fadeInLeft-03s')
+    for(var i = 0; i < entradas.length; i++){
+        if(entradas[i].isIntersecting){
+            const entrada = entradas[i].target || entradas[i].srcElement
+
+            switch(entrada.id){
+                case 'desenhoLivros':
+                    entradas[i].target.classList.add('visivel')
+                    entradas[i].target.classList.add('animate__animated')
+                    entradas[i].target.classList.add('fadeInLeft-03s')
+                    break
+                case 'tituloDemanda':
+                    entradas[i].target.classList.add('visivel')
+                    entradas[i].target.classList.add('animate__animated')
+                    entradas[i].target.classList.add('animate__fadeInUp')
+                    entradas[i].target.classList.add('animate__delay-1s')
+                    break
+                case 'subtextoDemanda':
+                    entradas[i].target.classList.add('visivel')
+                    entradas[i].target.classList.add('animate__animated')
+                    entradas[i].target.classList.add('animate__fadeInUp')
+                    entradas[i].target.classList.add('animate__delay-2s')
+                    break
+            }
         }
-    })
+    }
 })
 
 const secoes = document.querySelectorAll('.escondido')
