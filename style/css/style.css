@@ -115,8 +115,8 @@ hr{
     display: none;
 }
 
-.zoomInDown-700ms{
-    animation-name: zoomInDown;
+.backInDown-700ms{
+    animation-name: backInDown;
     animation-duration: 1s;
     animation-delay: 0.7s; 
 }
