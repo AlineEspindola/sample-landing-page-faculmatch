@@ -115,7 +115,7 @@ hr{
     display: none;
 }
 
-.zoomInDown-07s{
+.zoomInDown-700ms{
     animation-name: zoomInDown;
     animation-duration: 1s;
     animation-delay: 0.7s; 
@@ -166,13 +166,13 @@ h2{
     opacity: 1;
 }
 
-.fadeInLeft-03s{
+.fadeInLeft-300ms{
     animation-name: fadeInLeft;
     animation-duration: 1s;
     animation-delay: 0.3s; 
 }
 
-.fadeInUp-17s{
+.fadeInUp-1700ms{
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-delay: 1.7s; 

@@ -7,7 +7,7 @@ const observador = new IntersectionObserver( (entradas) => {
                 case 'desenhoLivros':
                     entradas[i].target.classList.add('visivel')
                     entradas[i].target.classList.add('animate__animated')
-                    entradas[i].target.classList.add('fadeInLeft-03s')
+                    entradas[i].target.classList.add('fadeInLeft-300ms')
                     break
                 case 'tituloDemanda':
                     entradas[i].target.classList.add('visivel')
@@ -18,7 +18,7 @@ const observador = new IntersectionObserver( (entradas) => {
                 case 'subtextoDemanda':
                     entradas[i].target.classList.add('visivel')
                     entradas[i].target.classList.add('animate__animated')
-                    entradas[i].target.classList.add('fadeInUp-17s')
+                    entradas[i].target.classList.add('fadeInUp-1700ms')
                     break
             }
         }
