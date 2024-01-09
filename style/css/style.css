@@ -14,6 +14,7 @@ a{
 .linha{
     position: relative;
 }
+
 .linha::before{
     content: '';
     position: absolute;
@@ -24,6 +25,7 @@ a{
     background-color: #F02A1C;
     transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
 @media (hover: hover) and (pointer: fine) {
     .linha:hover::before{
       left: 0;
@@ -46,10 +48,12 @@ a{
     margin-left: 10px;
     font-size: 1.3rem;
 }
+
 .btn:hover{
     color: white;
     background-color: #d12115;
 }
+
 .btn:focus{
     box-shadow: 0 0 0 0.2rem #ff9f98;
 }
@@ -57,6 +61,7 @@ a{
 .form-control{
     border-radius: 20px;
 }
+
 .form-control:focus{
     border-color: #df7068;
     box-shadow: 0 0 0 0.2rem #f8b7b2;
