@@ -2,6 +2,7 @@
     padding: 0;
 }
 
+/****************** index.html ******************/
 /****************** Nav ******************/
 ul{
     gap: 22px !important;
@@ -150,12 +151,14 @@ h3{
     max-width: 39%;
 }
 
-.texto-demanda h3{
+h3{
     max-width: fit-content;
 }
 
 h2{
     font-size: 2.5rem;
+    line-height: 3.6rem;
+    font-family: Nunito Sans;
 }
 
 .demanda p{
@@ -187,6 +190,39 @@ h2{
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-delay: 1.4s; 
+}
+
+/****************** faculdade.html ******************/
+/****************** faculdade ******************/
+.faculdade{
+    margin-top: 51px;
+}
+
+.corpo-desenho-faculdade{
+    flex: none;
+    max-width: 49%;
+}
+
+.faculdade h3{
+    margin-top: 20px;
+}
+
+.faculdade h1{
+    font-size: 2rem;
+}
+
+.faculdade .row{
+    margin-left: 100px;
+}
+
+.texto-faculdade{
+    flex: 0 0 40%; 
+    max-width: 40%;
+}
+
+.faculdade p{
+    font-family: Nunito Sans;
+    margin-top: 12px;
 }
 
 
