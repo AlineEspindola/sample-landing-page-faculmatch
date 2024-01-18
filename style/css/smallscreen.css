@@ -2,12 +2,15 @@
     .tela-celular{
         display: block;
     }
+
     .tela-pc{
         display: none;
     }
+
     .inicio p{
         margin-bottom: 0;
     }
+
     .filtros_celular{
         margin-bottom: 13px;
     }
@@ -17,11 +20,17 @@
     .logo-faculmatch{
         max-width: 160px;
     }
+
     .inicio{
         margin-top: 14%;
     }
+
     .titulo-1,.titulo-2{
         font-size: 2.3rem;
+    }
+
+    .corpo-desenho-faculdade{
+        max-width: 90% !important;
     }
 }
 
@@ -30,13 +39,16 @@
         margin-left: 0;
         margin-top: 13px;
     }
+
     .inicio p{
         max-width: 85%;
         font-size: 0.9rem;
     }
+
     .demanda p{
         font-size: 0.9rem;
     }
+
     h2{
         font-size: 2rem;
     }
@@ -47,13 +59,33 @@
         flex-direction: column-reverse;
         align-items: center;
     }
+
     .texto-demanda{
         max-width: 90%;
     }
+
     .desenho-livros{
         text-align: center;
         margin-top: 50px;
         margin-right: 0;
+    }
+
+    .faculdade .justify-content-start{
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .texto-faculdade{
+        max-width: 90%;
+    }
+
+    .corpo-desenho-faculdade{
+        max-width: 65%;
+    }
+
+    .faculdade .col{
+        max-width:max-content
     }
 }
 

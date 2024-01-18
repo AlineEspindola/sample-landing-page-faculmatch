@@ -241,6 +241,10 @@ h2{
     font-weight: 700;
 }
 
+.col-md-auto{
+    max-width: fit-content;
+}
+
 .cursos-numero{
     display: flex;
     justify-content: left !important;
