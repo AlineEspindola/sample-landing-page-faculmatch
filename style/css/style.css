@@ -209,6 +209,7 @@ h2{
 
 .faculdade h1{
     font-size: 2rem;
+    color: black;
 }
 
 .faculdade .row{
@@ -223,6 +224,7 @@ h2{
 .faculdade p{
     font-family: Nunito Sans;
     margin-top: 12px;
+    margin-bottom: 0;
 }
 
 .cursos-numero .titulo-1{
@@ -242,14 +244,18 @@ h2{
 .cursos-numero{
     display: flex;
     justify-content: left !important;
+    margin-left: 0 !important;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
-.cursos-numero{
-    margin-left: 0 !important;
+.cursos-numero h2{
+    margin-bottom: 0;
 }
 
 .faculdade .col-md-auto{
     padding: 0.3rem;
+    padding-left: 0;
 }
 
 .faculdade .col{
@@ -257,6 +263,23 @@ h2{
     color: #F02A1C;
     font-size: 0.8rem;
     font-weight: 700;
+}
+
+h4{
+    color: black;
+    font-family: "Nunito Sans";
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.texto-faculdade ul  p{
+    margin-top: 0;
+    font-size: 0.9rem;
+}
+
+.texto-faculdade ul{
+    padding: 20px;
+    padding-top: 10px;
 }
 
 
