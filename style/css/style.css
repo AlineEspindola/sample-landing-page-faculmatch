@@ -225,4 +225,39 @@ h2{
     margin-top: 12px;
 }
 
+.cursos-numero .titulo-1{
+    color: black;
+    font-family: "Nunito Sans";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cursos-numero .titulo-2{
+    color: #F02A1C;
+    font-family: "Nunito Sans";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cursos-numero{
+    display: flex;
+    justify-content: left !important;
+}
+
+.cursos-numero{
+    margin-left: 0 !important;
+}
+
+.faculdade .col-md-auto{
+    padding: 0.3rem;
+}
+
+.faculdade .col{
+    padding: 0.1rem;
+    color: #F02A1C;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
 
