@@ -210,6 +210,8 @@ h2{
 .faculdade h1{
     font-size: 2rem;
     color: black;
+    font-family: Roboto;
+    font-weight: 500;
 }
 
 .faculdade .row{
