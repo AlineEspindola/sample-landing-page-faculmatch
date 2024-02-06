@@ -24,7 +24,7 @@ https://github.com/AlineEspindola/Landing-Page-FaculMatch/assets/117865319/20f3b
 
 <div align="center">
 
-<h3>꧁ 📕 UI designer, Desenvolvedora Front-end e Gestora de Projetos: Aline Espindola 📕 ꧂</h3>
+<h3>꧁ 📕 UI Designer, Desenvolvedora Front-end e Gestora de Projeto: Aline Espindola 📕 ꧂</h3>
 
 [![Behance](https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/line14)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aline-espindola-72034b285)
