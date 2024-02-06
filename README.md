@@ -1,6 +1,6 @@
 <div align="center">
 <img style="width: 900px;" src="https://github.com/AlineEspindola/landing-page-faculmatch/assets/117865319/864c5295-b08c-4609-a198-e42af889c25c" />
-<h1>📕 Landing Page da FaculMatch 👨‍🎓</h1>
+<h1>📕 Amostra da Landing Page da FaculMatch 👨‍🎓</h1>
   
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/faculmatch)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/faculmatchoficial/)
