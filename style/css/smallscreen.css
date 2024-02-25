@@ -40,7 +40,7 @@
         margin-top: 13px;
     }
 
-    .inicio p,.projeto p{
+    .inicio p,.projeto p,.teste p{
         max-width: 85%;
         font-size: 0.9rem;
     }

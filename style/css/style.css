@@ -225,6 +225,44 @@ h2{
   margin: 30px 0;
 }
 
+/****************** teste ******************/
+.teste{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 170px;
+  background-image: url(../img/background.png);
+  color: white;
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.teste h2{
+  margin-bottom: 0;
+}
+
+.teste button{
+  background-color: white;
+  color: #F02A1C;
+  font-size: 1rem;
+  padding: 7px 17px;
+  font-weight: 600;
+}
+
+.teste p{
+  font-family: 'Inter', sans-serif;
+  margin: 15px 0px 25px 0px;
+}
+
+.teste .btn:hover{
+  color: #F02A1C;
+  background-color: rgba(255, 255, 255, 0.952);
+}
+
+.btn:focus{
+  box-shadow: 0 0 0 0.2rem #ffffff62;
+}
+
 /****************** faculdade.html ******************/
 /****************** faculdade ******************/
 .faculdade{
