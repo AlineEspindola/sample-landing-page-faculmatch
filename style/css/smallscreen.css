@@ -40,7 +40,7 @@
         margin-top: 13px;
     }
 
-    .inicio p{
+    .inicio p,.projeto p{
         max-width: 85%;
         font-size: 0.9rem;
     }
@@ -51,6 +51,10 @@
 
     h2{
         font-size: 2rem;
+    }
+
+    .projeto p{
+      margin: 22px 0;
     }
 }
 
