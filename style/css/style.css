@@ -199,6 +199,24 @@ h2{
     animation-delay: 1.4s; 
 }
 
+.fadeInUp-2100ms{
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-delay: 2.1s; 
+}
+
+.fadeInUp-2800ms{
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-delay: 2.8s; 
+}
+
+.fadeInUp-3500ms{
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-delay: 3.5s; 
+}
+
 /****************** projeto ******************/
 .projeto,.equipe{
   display: flex;
