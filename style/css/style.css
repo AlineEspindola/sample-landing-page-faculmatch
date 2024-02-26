@@ -211,7 +211,7 @@ h2{
   text-align: center;
 }
 
-.projeto p,.projeto h2,.equipe p,.equipe h2{
+.projeto p,.projeto h2,.equipe h2{
   text-align: center;
   max-width: 60%;
 }
@@ -264,6 +264,15 @@ h2{
 }
 
 /****************** equipe ******************/
+.equipe p{
+  text-align: center;
+  max-width: 90%;
+}
+
+.equipe h2{
+  max-width: 90%;
+}
+
 .cards{
   display: flex;
   justify-content: center;
@@ -290,6 +299,7 @@ h2{
   max-width: 100%;
   margin: 0;
   font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
 }
 
 .card .texto{
