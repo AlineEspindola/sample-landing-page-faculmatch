@@ -200,29 +200,29 @@ h2{
 }
 
 /****************** projeto ******************/
-.projeto{
+.projeto,.equipe{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 4%;
 }
 
-.projeto h3{
+.projeto h3,.equipe h3{
   text-align: center;
 }
 
-.projeto p,.projeto h2{
+.projeto p,.projeto h2,.equipe p,.equipe h2{
   text-align: center;
   max-width: 60%;
 }
 
-.projeto h2{
+.projeto h2,.equipe h2{
   margin-bottom: 0;
 }
 
-.projeto p{
+.projeto p,.equipe p{
   font-family: 'Inter', sans-serif;
-  margin: 30px 0;
+  margin: 20px 0px 35px 0px;
 }
 
 /****************** teste ******************/
@@ -261,6 +261,50 @@ h2{
 
 .btn:focus{
   box-shadow: 0 0 0 0.2rem #ffffff62;
+}
+
+/****************** equipe ******************/
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 20px;
+}
+
+.card{
+  background-color: #F9F9F9;
+  border: 0;
+  max-width: 300px;
+  padding: 30px;
+  gap: 25px;
+}
+
+.card .pessoa{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.card p{
+  max-width: 100%;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.card .texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+}
+
+.card h4{
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+
+.card .texto p{
+  text-align: left !important;
 }
 
 /****************** faculdade.html ******************/
