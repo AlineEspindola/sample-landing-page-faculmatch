@@ -15,11 +15,25 @@ Apresento para vocês uma amostra da Landing Page da FaculMatch, um site que re�
 
 Este repositório serve para vocês terem um gostinho de como será o site FaculMatch. Como é uma demostração, não é 100% fiel ao site original, assim como as informações contendo nele são ilustrativas.
 
+https://github.com/AlineEspindola/sample-landing-page-faculmatch/assets/117865319/a9169f53-44b0-4b54-9fc7-904c27fee678
+
+<hr>
+
 <div align="center">
-<img src="https://github.com/AlineEspindola/Landing-Page-FaculMatch/assets/117865319/3264f903-809b-49fe-b5fa-4f47287cc12a" />
+  <h2>Principais diferenças entre a landing page da FaculMatch com a Amostra da landing page. Detalhes menos triviais, como espaçamentos, fontes e textos, não serão citados</h2>
 </div>
 
-https://github.com/AlineEspindola/Landing-Page-FaculMatch/assets/117865319/20f3bb2b-b32a-4459-bc7f-e21e1767a179
+### FaculMatch
+
+✔ Seção Parceria
+
+✔ Rodapé
+
+❌ Barra de rolagem no nav do celular
+
+### Amostra
+
+✔ Barra de rolagem no nav do celular
 
 <hr>
 
