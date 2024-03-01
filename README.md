@@ -20,8 +20,10 @@ https://github.com/AlineEspindola/sample-landing-page-faculmatch/assets/11786531
 <hr>
 
 <div align="center">
-  <h2>Principais diferenças entre a landing page da FaculMatch com a Amostra da landing page. Detalhes menos triviais, como espaçamentos, fontes e textos, não serão citados</h2>
+  <h2>Principais diferenças entre a landing page da FaculMatch com a Amostra da landing page</h2>
 </div>
+
+Essas são as diferenças entre o site ofical e a amostra. Detalhes menos triviais, como espaçamentos, fontes e textos, não serão citados
 
 ### FaculMatch
 
@@ -34,6 +36,10 @@ https://github.com/AlineEspindola/sample-landing-page-faculmatch/assets/11786531
 ### Amostra
 
 ✔ Barra de rolagem no nav do celular
+
+❌ Seção Parceria
+
+❌ Rodapé
 
 <hr>
 
