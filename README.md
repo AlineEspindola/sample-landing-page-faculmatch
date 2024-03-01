@@ -8,7 +8,6 @@
 
 <h1><a href="https://landing-page-faculmatch.vercel.app/" target="_blank">Visite o site no Vercel</a></h1>
 
-<h2>[EM DESENVOLVIMENTO]</h2>
 </div>
 
 Apresento para vocês uma amostra da Landing Page da FaculMatch, um site que reúne diversas universidades, focando-se um filtro na qual o aluno opta pela melhor faculdade, de acordo com suas preferências. Ele poderá filtrar por local, curso, matéria, mensalidade, EAD ou presencial, e muito mais!
